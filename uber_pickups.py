@@ -5,7 +5,7 @@ import pandas as pd
 # Function to establish a MySQL connection
 def connect_to_mysql():
     return mysql.connector.connect(
-        host="localhost",
+        host="192.168.82.27",
         user="root",
         password="",
         database="mydb"
